@@ -23,3 +23,7 @@ Next 16.4.6 / React 19.3 has breaking changes versus common training data (see `
 - Tailwind v4 is wired through Turbopack: `next.config.ts` has a `turbopack.rules` entry running `@tailwindcss/turbopack` on `*.css`. Styles are configured in `app/globals.css` (`@import "tailwindcss"`, `@theme inline`), not a `tailwind.config` file.
 - Path alias: `@/*` maps to the repo root (not `src/`).
 - TypeScript is `strict`.
+
+
+## Skills
+Usa siempre /frontend-design para diseñar la interfaz de usuario.
